@@ -1,0 +1,29 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.0.1"
+
+    defaultConfig {
+        minSdkVersion 10
+        targetSdkVersion 18
+    }
+
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:+'
+    compile 'com.android.support:appcompat-v7:+'
+    compile files('libs/android-async-http-1.4.3.jar')
+    compile files('libs/picasso-2.1.1.jar')
+    compile 'com.squareup.retrofit:retrofit:1.4.1'
+    compile 'joda-time:joda-time:2.3'
+    compile 'com.squareup.dagger:dagger:1.1.0'
+    compile 'com.jakewharton:butterknife:4.0.1'
+}

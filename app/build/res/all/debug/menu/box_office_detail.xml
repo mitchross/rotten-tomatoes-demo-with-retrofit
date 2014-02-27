@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>
+<!-- From: file:/Users/mitch/Documents/Android%20Studio%20Projects/android-rottentomatoes-demo/app/src/main/res/menu/box_office_detail.xml -->

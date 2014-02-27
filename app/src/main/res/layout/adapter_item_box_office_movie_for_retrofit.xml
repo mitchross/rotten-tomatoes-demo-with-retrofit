@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:padding="1dp" >
+    
+    <!-- @drawable/large_movie_poster sourced from 
+         http://content8.flixster.com/movie/11/15/86/11158674_pro.jpg -->
+    <ImageView
+        android:id="@+id/posterImage"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="poster image"
+        android:src="@drawable/movie_poster" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Dark Knight"
+        android:textSize="14sp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/posterImage" />
+
+    <TextView
+        android:id="@+id/criticsConensusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:text="Christian Bale, Joseph-Gordon Levitt"
+        android:textSize="12sp"
+        android:layout_below="@+id/titleText"
+        android:layout_alignLeft="@+id/titleText"
+        android:layout_alignStart="@+id/titleText" />
+
+    <TextView
+        android:id="@+id/criticsScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="93%"
+        android:textSize="12sp"
+        android:layout_below="@+id/criticsConensusText"
+        android:layout_alignLeft="@+id/titleText"
+        android:layout_alignStart="@+id/titleText" />
+
+    <TextView
+        android:id="@+id/audienceScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="83%"
+        android:textSize="12sp"
+        android:layout_below="@+id/criticsScore"
+        android:layout_alignLeft="@+id/titleText"
+        android:layout_alignStart="@+id/titleText" />
+
+</RelativeLayout>

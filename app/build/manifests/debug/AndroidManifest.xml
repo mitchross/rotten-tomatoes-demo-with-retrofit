@@ -1,0 +1,18 @@
+<!-- From: file:/Users/mitch/Documents/Android%20Studio%20Projects/android-rottentomatoes-demo/app/src/main/AndroidManifest.xml -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.codepath.example.rottentomatoes">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="18"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/box_office_title" android:name="com.codepath.example.rottentomatoes.Retrofit.BoxOfficeActivityWithRetrofit">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
