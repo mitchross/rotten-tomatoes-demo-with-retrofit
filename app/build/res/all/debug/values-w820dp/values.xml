@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/mitch/Documents/Android%20Studio%20Projects/android-rottentomatoes-demo/app/src/main/res/values-w820dp/dimens.xml -->
+    <!-- From: file:/Users/mitch/Desktop/RT/app/src/main/res/values-w820dp/dimens.xml -->
     <eat-comment />
 
     <dimen name="activity_horizontal_margin">64dp</dimen>

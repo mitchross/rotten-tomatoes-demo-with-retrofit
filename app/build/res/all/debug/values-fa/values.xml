@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/mitch/Documents/Android%20Studio%20Projects/android-rottentomatoes-demo/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-fa/values.xml -->
+    <!-- From: file:/Users/mitch/Desktop/RT/app/build/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-fa/values.xml -->
     <eat-comment />
 
     <string name="abc_action_bar_home_description" msgid="4600421777120114993">"پیمایش به صفحه اصلی"</string>
@@ -16,6 +16,6 @@
     <string name="abc_searchview_description_submit" msgid="8928215447528550784">"ارسال عبارت جستجو"</string>
     <string name="abc_searchview_description_voice" msgid="893419373245838918">"جستجوی شفاهی"</string>
     <string name="abc_shareactionprovider_share_with" msgid="3421042268587513524">"اشتراک‌گذاری با"</string>
-    <string name="abc_shareactionprovider_share_with_application" msgid="7165123711973476752">"‏اشتراک‌گذاری با %s"</string>
+    <string name="abc_shareactionprovider_share_with_application" msgid="7165123711973476752">"اشتراک‌گذاری با %s"</string>
 
 </resources>

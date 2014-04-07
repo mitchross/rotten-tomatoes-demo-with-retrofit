@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merger>
 
-    <dataSet config="ComAndroidSupportAppcompatV71901.aar" >
-        <source path="/Users/mitch/Documents/Android Studio Projects/android-rottentomatoes-demo/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/assets" />
+    <dataSet config="19.1.0" >
+        <source path="/Users/mitch/Desktop/RT/app/build/exploded-aar/com.android.support/appcompat-v7/19.1.0/assets" />
     </dataSet>
     <dataSet config="main" >
-        <source path="/Users/mitch/Documents/Android Studio Projects/android-rottentomatoes-demo/app/src/main/assets" >
+        <source path="/Users/mitch/Desktop/RT/app/src/main/assets" >
             <file
                 name="tomatoes_api_key.txt"
-                path="/Users/mitch/Documents/Android Studio Projects/android-rottentomatoes-demo/app/src/main/assets/tomatoes_api_key.txt" />
+                path="/Users/mitch/Desktop/RT/app/src/main/assets/tomatoes_api_key.txt" />
         </source>
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/mitch/Documents/Android Studio Projects/android-rottentomatoes-demo/app/src/debug/assets" />
+        <source path="/Users/mitch/Desktop/RT/app/src/debug/assets" />
     </dataSet>
 
 </merger>
