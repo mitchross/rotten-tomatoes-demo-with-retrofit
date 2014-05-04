@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ListView;
 
 import com.codepath.example.rottentomatoes.R;
@@ -24,24 +23,15 @@ import retrofit.client.Response;
 
 public class BoxOfficeActivityWithRetrofit extends Activity {
 
+	RottenTomatoesRetrofitClient.RottenTomatoesService rottenTomatoesService;
+
     @InjectView(R.id.myListView)
     ListView myListView;
-
-    @InjectView(R.id.connectButton)
-    Button connectButton;
 
     @OnClick(R.id.connectButton)
     public void connectToService(View v)
     {
-
-        
-        RestAdapter restAdapter = new RestAdapter.Builder().setEndpoint(RottenTomatoesRetrofitClient.API_BASE_URL).build();
-
-
-        RottenTomatoesRetrofitClient.RottenTomatoesService  rottenTomatoesService = restAdapter.create(RottenTomatoesRetrofitClient.RottenTomatoesService.class);
         rottenTomatoesService.getMoviesFromServer(new RottenTomatoesMoviesResponseHandler() );
-
-
     }
 
     @Override
@@ -49,9 +39,16 @@ public class BoxOfficeActivityWithRetrofit extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_box_office_activity_with_retrofit);
         ButterKnife.inject(this);
+		setUpRetroFit();
 
 
     }
+
+	protected void setUpRetroFit()
+	{
+		RestAdapter restAdapter = new RestAdapter.Builder().setEndpoint(RottenTomatoesRetrofitClient.API_BASE_URL).build();
+		 rottenTomatoesService = restAdapter.create(RottenTomatoesRetrofitClient.RottenTomatoesService.class);
+	}
 
     public class RottenTomatoesMoviesResponseHandler implements Callback<Movies>
     {

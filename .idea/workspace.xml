@@ -12,7 +12,10 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.codepath.example.rottentomatoes" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f92e5b1d-4e75-4b59-8bdf-2d9f9d0936e7" name="Default" comment="" />
+    <list default="true" id="f92e5b1d-4e75-4b59-8bdf-2d9f9d0936e7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/dex/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/BoxOfficeActivityWithRetrofit.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/BoxOfficeActivityWithRetrofit.java" />
+    </list>
     <ignored path="RT.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -140,8 +143,8 @@
       <file leaf-file-name="BoxOfficeActivityWithRetrofit.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/BoxOfficeActivityWithRetrofit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4964029" vertical-offset="0" max-vertical-offset="975">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.16546762" vertical-offset="250" max-vertical-offset="945">
+              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -1217,7 +1220,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1090" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1238,7 +1241,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295688" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1374,8 +1377,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/BoxOfficeActivityWithRetrofit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4964029" vertical-offset="0" max-vertical-offset="975">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.16546762" vertical-offset="250" max-vertical-offset="945">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding />
         </state>
       </provider>
