@@ -1,4 +1,4 @@
-<!-- From: file:/Users/mitch/Desktop/RT/app/src/main/AndroidManifest.xml -->
+<!-- From: file:/Users/mitch/Documents/Android%20Studio%20Projects/RT-Retrofit/app/src/main/AndroidManifest.xml -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.codepath.example.rottentomatoes">
 
     <uses-permission android:name="android.permission.INTERNET"/>

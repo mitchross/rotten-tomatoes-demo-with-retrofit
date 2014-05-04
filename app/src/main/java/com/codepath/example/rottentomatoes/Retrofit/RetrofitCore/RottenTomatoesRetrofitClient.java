@@ -1,10 +1,7 @@
 package com.codepath.example.rottentomatoes.Retrofit.RetrofitCore;
 
-import java.util.List;
-
 import retrofit.Callback;
 import retrofit.http.GET;
-import retrofit.http.Path;
 
 /**
  * Created by mitch on 2/24/14.
@@ -22,5 +19,7 @@ public class RottenTomatoesRetrofitClient {
         void getMoviesFromServer(
                 Callback<Movies> callback );
     }
+
+
 
 }

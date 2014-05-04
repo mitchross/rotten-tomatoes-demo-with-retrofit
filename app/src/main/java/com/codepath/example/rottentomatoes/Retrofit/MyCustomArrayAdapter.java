@@ -14,6 +14,9 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
+import butterknife.ButterKnife;
+import butterknife.InjectView;
+
 /**
  * Created by mitch on 2/24/14.
  */
@@ -29,32 +32,64 @@ public class MyCustomArrayAdapter extends ArrayAdapter <RTMovie> {
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(int position, View view, ViewGroup parent) {
+
+		ViewHolder myView;
 
         // Get the data item for this position
         RTMovie movie = getItem(position);
+
         // Check if an existing view is being reused, otherwise inflate the view
-        if (convertView == null) {
-            LayoutInflater inflater = LayoutInflater.from(getContext());
-            convertView = inflater.inflate(R.layout.adapter_item_box_office_movie_for_retrofit, null);
+        if (view == null) {
+
+			view = LayoutInflater.from( getContext() ).inflate( R.layout.adapter_item_box_office_movie_for_retrofit, parent , false );
+
+			myView = new ViewHolder( view );
+
+			view.setTag( myView );
+
+
         }
-
-        TextView title = (TextView) convertView.findViewById(R.id.titleText);
-        TextView consensus = (TextView)convertView.findViewById(R.id.criticsConensusText);
-        TextView criticScore = (TextView)convertView.findViewById(R.id.criticsScore);
-        TextView audienceScore = (TextView)convertView.findViewById(R.id.audienceScore);
-        ImageView posterImage = (ImageView)convertView.findViewById(R.id.posterImage);
-
-        title.setText(movie.title);
-        consensus.setText(movie.consensus);
-        criticScore.setText("Critics Score: " +String.valueOf(movie.ratings.critics_score) );
-        audienceScore.setText("Audience Score: "+String.valueOf(movie.ratings.audience_score));
-
-        Picasso.with(getContext()).load(movie.posters.thumbnail).into(posterImage);
+		else
+		{
+			myView = (ViewHolder)view.getTag();
+		}
 
 
-        return  convertView;
+        myView.title.setText(movie.title);
+        myView.consensus.setText(movie.consensus);
+        myView.criticScore.setText("Critics Score: " +String.valueOf(movie.ratings.critics_score) );
+        myView.audienceScore.setText("Audience Score: "+String.valueOf(movie.ratings.audience_score));
+
+        Picasso.with(getContext()).load(movie.posters.thumbnail).into(myView.posterImage);
+
+
+        return  view;
     }
 
+	protected static class ViewHolder
+	{
+
+		@InjectView( R.id.titleText )
+		TextView title;
+
+		@InjectView( R.id.criticsConensusText )
+		TextView consensus;
+
+		@InjectView( R.id.criticsScore  )
+		TextView criticScore;
+
+		@InjectView( R.id.audienceScore )
+		TextView audienceScore;
+
+		@InjectView( R.id.posterImage )
+		ImageView posterImage;
+
+		public ViewHolder ( View view )
+		{
+			ButterKnife.inject( this, view );
+		}
+
+	}
 
 }

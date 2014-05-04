@@ -7,15 +7,9 @@ import butterknife.ButterKnife.Finder;
 public class BoxOfficeActivityWithRetrofit$$ViewInjector {
   public static void inject(Finder finder, final com.codepath.example.rottentomatoes.Retrofit.BoxOfficeActivityWithRetrofit target, Object source) {
     View view;
-    view = finder.findById(source, 2131165245);
-    if (view == null) {
-      throw new IllegalStateException("Required view with id '2131165245' for field 'myListView' was not found. If this view is optional add '@Optional' annotation.");
-    }
+    view = finder.findRequiredView(source, 2131165245, "field 'myListView'");
     target.myListView = (android.widget.ListView) view;
-    view = finder.findById(source, 2131165244);
-    if (view == null) {
-      throw new IllegalStateException("Required view with id '2131165244' for field 'connectButton' and method 'connectToService' was not found. If this view is optional add '@Optional' annotation.");
-    }
+    view = finder.findRequiredView(source, 2131165244, "field 'connectButton' and method 'connectToService'");
     target.connectButton = (android.widget.Button) view;
     view.setOnClickListener(
       new android.view.View.OnClickListener() {

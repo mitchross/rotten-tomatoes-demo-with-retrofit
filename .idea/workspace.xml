@@ -1,14 +1,370 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="name" value="app: com.codepath.example.rottentomatoes" />
+        <option name="packageNamePattern" value="com.codepath.example.rottentomatoes" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.codepath.example.rottentomatoes" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f92e5b1d-4e75-4b59-8bdf-2d9f9d0936e7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/source/buildConfig/debug/com/codepath/example/rottentomatoes/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/source/buildConfig/debug/com/codepath/example/rottentomatoes/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/source/r/debug/com/codepath/example/rottentomatoes/R.java" afterPath="$PROJECT_DIR$/app/build/source/r/debug/com/codepath/example/rottentomatoes/R.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_async_http_1_4_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/butterknife_4_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/joda_time_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/retrofit_1_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/R.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/anim/abc_fade_in.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/anim/abc_fade_out.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/anim/abc_slide_in_bottom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/anim/abc_slide_in_top.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/anim/abc_slide_out_bottom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/anim/abc_slide_out_top.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/color/abc_search_url_text_holo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_bottom_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_bottom_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_bottom_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_bottom_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_stacked_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_stacked_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_stacked_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_stacked_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ab_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_cab_background_bottom_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_cab_background_bottom_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_cab_background_top_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_cab_background_top_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_ab_back_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_ab_back_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_cab_done_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_cab_done_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_clear_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_clear_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_clear_search_api_disabled_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_clear_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_commit_search_api_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_commit_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_go.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_go_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_menu_share_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_menu_share_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_voice_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_ic_voice_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_list_divider_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_list_divider_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_list_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_list_longpressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_list_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_list_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_menu_dropdown_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_menu_dropdown_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_menu_hardkey_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_menu_hardkey_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_spinner_ab_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_spinner_ab_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_spinner_ab_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_spinner_ab_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_spinner_ab_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_spinner_ab_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_spinner_ab_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_spinner_ab_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_tab_selected_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_tab_selected_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_tab_selected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_tab_unselected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_textfield_search_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_textfield_search_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_textfield_search_right_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_textfield_search_right_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_textfield_search_right_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_textfield_search_right_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_textfield_search_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-hdpi/abc_textfield_search_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_bottom_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_bottom_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_bottom_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_bottom_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_share_pack_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_stacked_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_stacked_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_stacked_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_stacked_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ab_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_cab_background_bottom_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_cab_background_bottom_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_cab_background_top_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_cab_background_top_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_ab_back_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_ab_back_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_cab_done_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_cab_done_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_clear_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_clear_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_clear_search_api_disabled_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_clear_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_commit_search_api_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_commit_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_go.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_go_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_menu_share_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_menu_share_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_voice_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_ic_voice_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_list_divider_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_list_divider_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_list_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_list_longpressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_list_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_list_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_menu_dropdown_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_menu_dropdown_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_menu_hardkey_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_menu_hardkey_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_spinner_ab_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_spinner_ab_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_spinner_ab_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_spinner_ab_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_spinner_ab_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_spinner_ab_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_spinner_ab_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_spinner_ab_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_tab_selected_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_tab_selected_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_tab_selected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_tab_unselected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_textfield_search_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_textfield_search_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_textfield_search_right_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_textfield_search_right_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_textfield_search_right_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_textfield_search_right_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_textfield_search_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-mdpi/abc_textfield_search_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_bottom_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_bottom_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_bottom_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_bottom_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_stacked_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_stacked_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_stacked_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_stacked_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ab_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_cab_background_bottom_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_cab_background_bottom_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_cab_background_top_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_cab_background_top_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_ab_back_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_ab_back_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_cab_done_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_cab_done_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_clear_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_clear_search_api_disabled_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_clear_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_commit_search_api_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_commit_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_go.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_go_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_menu_share_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_menu_share_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_voice_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_ic_voice_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_list_divider_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_list_divider_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_list_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_list_longpressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_list_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_list_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_menu_dropdown_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_menu_dropdown_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_menu_hardkey_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_menu_hardkey_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_spinner_ab_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_spinner_ab_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_spinner_ab_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_spinner_ab_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_spinner_ab_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_spinner_ab_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_spinner_ab_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_spinner_ab_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_tab_selected_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_tab_selected_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_tab_selected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_tab_unselected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_textfield_search_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_textfield_search_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_textfield_search_right_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_textfield_search_right_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_textfield_search_right_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_textfield_search_right_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_textfield_search_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable-xhdpi/abc_textfield_search_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_ic_clear.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_ic_clear_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_item_background_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_item_background_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_list_selector_background_transition_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_list_selector_background_transition_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_list_selector_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_list_selector_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_search_dropdown_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_search_dropdown_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_spinner_ab_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_spinner_ab_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_tab_indicator_ab_holo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_textfield_searchview_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_textfield_searchview_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_textfield_searchview_right_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/drawable/abc_textfield_searchview_right_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout-v11/abc_action_bar_decor.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout-v14/abc_activity_chooser_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_bar_decor.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_bar_decor_include.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_bar_decor_overlay.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_bar_home.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_bar_tab.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_bar_tabbar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_bar_title_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_bar_view_list_nav_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_menu_item_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_menu_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_mode_bar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_action_mode_close_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_activity_chooser_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_activity_chooser_view_include.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_activity_chooser_view_list_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_expanded_menu_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_list_menu_item_checkbox.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_list_menu_item_icon.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_list_menu_item_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_list_menu_item_radio.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_popup_menu_item_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_search_dropdown_item_icons_2line.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/abc_search_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/layout/support_simple_spinner_dropdown_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-af/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-am/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-ar/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-bg/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-ca/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-cs/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-da/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-de/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-el/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-en-rGB/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-en-rIN/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-es-rUS/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-es/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-et-rEE/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-fa/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-fi/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-fr-rCA/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-fr/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-hi/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-hr/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-hu/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-hy-rAM/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-in/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-it/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-iw/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-ja/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-ka-rGE/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-km-rKH/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-ko/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-land/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-large/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-lo-rLA/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-lt/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-lv/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-mn-rMN/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-ms-rMY/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-nb/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-nl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-pl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-pt-rPT/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-pt/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-ro/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-ru/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-sk/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-sl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-sr/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-sv/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-sw/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-sw600dp/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-th/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-tl/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-tr/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-uk/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-v11/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-v14/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-vi/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-w360dp/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-w480dp/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-w500dp/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-w600dp/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-w720dp/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-xlarge/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-zh-rCN/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-zh-rHK/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-zh-rTW/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values-zu/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/android-async-http-1.4.3-fe0785b2f3073ea8035b29b8a1b46dee4b2786ed.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/butterknife-4.0.1-c96ff3a07f70ce60993dbd0a0b689b9d903420e3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/classes-89eb4c23bc4f6508bee0e95e4015311baa67f79e.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/joda-time-2.3-211df26019575638cd9f9cb3b22db68949708c2d.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/picasso-2.1.1-8d055417d580b1e1cbe142dacad658f643b0875c.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/retrofit-1.4.1-1185293f62e9fc08513bb3ff28668be1ee848e2b.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/support-v4-19.0.1-3bf117e59e2e0f41bbf9219f2be90cdcf1dd583d.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/dex/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/dagger-1.1.0-fdd27912a9ad202a93ae36e674612fb9db1001fd.jar" afterPath="$PROJECT_DIR$/app/build/pre-dexed/debug/dagger-1.1.0-fdd27912a9ad202a93ae36e674612fb9db1001fd.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/gson-2.2.4-a72a14ea4fba01675918939b18f690b1bee9ec07.jar" afterPath="$PROJECT_DIR$/app/build/pre-dexed/debug/gson-2.2.4-a72a14ea4fba01675918939b18f690b1bee9ec07.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/javax.inject-1-c59714e30528263f1e73596b55bf10cccccb2e25.jar" afterPath="$PROJECT_DIR$/app/build/pre-dexed/debug/javax.inject-1-c59714e30528263f1e73596b55bf10cccccb2e25.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/MyCustomArrayAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/MyCustomArrayAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/Translator/RTMovie.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/Translator/RTMovie.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/RetrofitCore/RottenTomatoesRetrofitClient.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/RetrofitCore/RottenTomatoesRetrofitClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,18 +430,71 @@
       <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.4" vertical-offset="0" max-vertical-offset="525">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="937">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Movies.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/RetrofitCore/Movies.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RTMovie.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/Translator/RTMovie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyCustomArrayAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/MyCustomArrayAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1290">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding>
+                <element signature="e#2272#2273#0" expanded="true" />
+                <element signature="e#2313#2314#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RottenTomatoesRetrofitClient.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/RetrofitCore/RottenTomatoesRetrofitClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoxOfficeActivityWithRetrofit.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/BoxOfficeActivityWithRetrofit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4964029" vertical-offset="0" max-vertical-offset="975">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,7 +521,7 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="RT" />
+              <option name="name" value="RT-Retrofit" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
@@ -123,7 +532,7 @@
                 <option name="path" value="$PROJECT_DIR$/app" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="RT" />
+                <option name="name" value="RT-Retrofit" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
@@ -504,7 +913,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4190508805000" />
+        <entry key="$PROJECT_DIR$" value="4190577877000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -763,13 +1172,17 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/MyCustomArrayAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/Translator/RTMovie.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/RetrofitCore/RottenTomatoesRetrofitClient.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/BoxOfficeActivityWithRetrofit.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="1106" />
+    <option name="height" value="1090" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -797,6 +1210,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -811,7 +1225,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RT" />
+              <option name="myItemId" value="RT-Retrofit" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -821,7 +1235,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="RT" />
+              <option name="myItemId" value="RT-Retrofit" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -829,9 +1243,146 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RT-Retrofit" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RT-Retrofit" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Retrofit" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RT-Retrofit" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Retrofit" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Translator" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RT-Retrofit" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Retrofit" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RetrofitCore" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RT-Retrofit" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -843,8 +1394,33 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="test" />
   </component>
   <component name="RunManager" selected="Android Application.app">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -965,6 +1541,8 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
     <list size="1">
@@ -979,6 +1557,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f92e5b1d-4e75-4b59-8bdf-2d9f9d0936e7" name="Default" comment="" />
@@ -988,30 +1569,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1106" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="1090" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960597" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2577002" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295688" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1036,8 +1617,59 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.4" vertical-offset="0" max-vertical-offset="525">
+        <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/RetrofitCore/Movies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="345">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/Translator/RTMovie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="645">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/MyCustomArrayAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="810">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="e#2272#2273#0" expanded="true" />
+            <element signature="e#2313#2314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1046,6 +1678,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="962">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/RetrofitCore/Movies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/Translator/RTMovie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/RetrofitCore/RottenTomatoesRetrofitClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/MyCustomArrayAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="74" max-vertical-offset="1290">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="e#2272#2273#0" expanded="true" />
+            <element signature="e#2313#2314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/codepath/example/rottentomatoes/Retrofit/BoxOfficeActivityWithRetrofit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4964029" vertical-offset="0" max-vertical-offset="975">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>

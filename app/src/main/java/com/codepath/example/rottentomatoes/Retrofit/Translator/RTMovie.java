@@ -10,7 +10,7 @@ public class RTMovie {
    public String id;
    public String title;
    public int year;
-    public String mpaa_rating;
+   public String mpaa_rating;
 
     @SerializedName("posters")
     public Posters posters;

@@ -56,4 +56,4 @@
         android:layout_alignLeft="@+id/titleText"
         android:layout_alignStart="@+id/titleText" />
 
-</RelativeLayout><!-- From: file:/Users/mitch/Desktop/RT/app/src/main/res/layout/adapter_item_box_office_movie_for_retrofit.xml -->
+</RelativeLayout><!-- From: file:/Users/mitch/Documents/Android%20Studio%20Projects/RT-Retrofit/app/src/main/res/layout/adapter_item_box_office_movie_for_retrofit.xml -->
