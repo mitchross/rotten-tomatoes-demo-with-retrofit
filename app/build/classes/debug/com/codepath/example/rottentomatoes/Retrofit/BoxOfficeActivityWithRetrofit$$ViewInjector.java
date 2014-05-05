@@ -9,8 +9,7 @@ public class BoxOfficeActivityWithRetrofit$$ViewInjector {
     View view;
     view = finder.findRequiredView(source, 2131165245, "field 'myListView'");
     target.myListView = (android.widget.ListView) view;
-    view = finder.findRequiredView(source, 2131165244, "field 'connectButton' and method 'connectToService'");
-    target.connectButton = (android.widget.Button) view;
+    view = finder.findRequiredView(source, 2131165244, "method 'connectToService'");
     view.setOnClickListener(
       new android.view.View.OnClickListener() {
         @Override public void onClick(
@@ -23,6 +22,5 @@ public class BoxOfficeActivityWithRetrofit$$ViewInjector {
 
   public static void reset(com.codepath.example.rottentomatoes.Retrofit.BoxOfficeActivityWithRetrofit target) {
     target.myListView = null;
-    target.connectButton = null;
   }
 }

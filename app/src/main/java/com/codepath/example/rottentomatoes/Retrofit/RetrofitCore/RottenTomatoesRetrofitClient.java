@@ -9,7 +9,7 @@ import retrofit.http.GET;
 public class RottenTomatoesRetrofitClient {
 
 
-    public static final String API_KEY = "sb57xwg3r6qp6zvwnzm463jv";
+    public static final String API_KEY = "snvygxnkhe8aa7jw8c3ktx5v";
     public static final String API_BASE_URL = "http://api.rottentomatoes.com/api/public/v1.0/";
     //http://api.rottentomatoes.com/api/public/v1.0/lists/movies/box_office.json?apikey=<key>
 
