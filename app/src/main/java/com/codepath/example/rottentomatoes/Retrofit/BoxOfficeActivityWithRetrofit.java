@@ -24,6 +24,7 @@ import retrofit.client.Response;
 public class BoxOfficeActivityWithRetrofit extends Activity {
 
 	RottenTomatoesRetrofitClient.RottenTomatoesService rottenTomatoesService;
+	RestAdapter restAdapter;
 
     @InjectView(R.id.myListView)
     ListView myListView;
@@ -46,7 +47,7 @@ public class BoxOfficeActivityWithRetrofit extends Activity {
 
 	protected void setUpRetroFit()
 	{
-		RestAdapter restAdapter = new RestAdapter.Builder().setEndpoint(RottenTomatoesRetrofitClient.API_BASE_URL).build();
+		 restAdapter = new RestAdapter.Builder().setEndpoint(RottenTomatoesRetrofitClient.API_BASE_URL).build();
 		 rottenTomatoesService = restAdapter.create(RottenTomatoesRetrofitClient.RottenTomatoesService.class);
 	}
 
